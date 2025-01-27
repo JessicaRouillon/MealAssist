@@ -1,4 +1,3 @@
-// import { SUPABASE_URL, SUPABASE_ANON_KEY } from '@env';
-import { SUPABASE_URL, SUPABASE_ANON_KEY } from 'expo-env';
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from '@env';
 
 export { SUPABASE_URL, SUPABASE_ANON_KEY };

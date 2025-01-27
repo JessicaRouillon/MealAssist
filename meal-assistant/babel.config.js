@@ -1,13 +1,13 @@
 module.exports = {
   presets: [
-    'metro-react-native-babel-preset'
+    '@babel/preset-react',
+    '@babel/preset-typescript'
   ],
   plugins: [
     'react-native-reanimated/plugin',
     [
       "module:react-native-dotenv", {
-        // "moduleName": "@env",
-        "moduleName": "expo-env",
+        "moduleName": "@env",
         "path": ".env",
         "safe": false,
         "allowUndefined": true,

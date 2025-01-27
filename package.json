@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/expo": "^32.0.13"
+  }
+}
